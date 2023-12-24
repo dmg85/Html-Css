@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Margin &amp; Padding</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		:root {
+  			--custom-background-color: #333334;
+			--color: white;
+			--border: #333334 4px solid;
+			--border-radius: 4px;
+		}
+		body {
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		.box {
+			background-color: rgb(234, 232, 232);
+			border: rgb(37, 37, 251) 2px solid;
+			width: 500px;
+			padding: 1em;
+			margin: 2rem 1rem;
+			border-radius: 4px;
+		}
+		.box h2{
+			padding-bottom: 0.4rem;
+		}
+		.code-snippets {
+			background-color: var(--custom-background-color);
+			color: var(--color);
+			border: var(--border);
+			border-radius: var(--border-radius);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h2>Margin</h2>
+		<p>The margin property may be specified using one, two, three, or four values. Each value is a <code>&lt;length&gt;</code>, <code>a</code> <code>&lt;percentage&gt;</code>, or the keyword <code class="code-snippets">auto</code>. Negative values draw the element closer to its neighbors than it would be by default.</p>
+	</div>
+	<div class="box">
+		<h2>Padding</h2>
+		<p>The <code class="code-snippets">padding</code> property may be specified using one, two, three, or four values. Each value is a <code>&lt;length&gt;</code> or a <code>&lt;percentage&gt;</code>. Negative values are invalid.</p>
+	</div>
+</body>
+</html>

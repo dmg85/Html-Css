@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<title>Css Selectors</title>
+	<style>
+		* {
+			font-family:system-ui, -apple-system, sans-serif ;
+		}
+		/* Element selectors */
+		body {
+			background-color: #b5b3b3;
+		}
+	
+		a {
+			text-decoration: none;
+		}
+		/* . is for classes */
+		.primary-heading {
+			color:darkgreen;
+		}
+		/* # is for id's */
+		#combinators {
+			background-color: rgb(220, 219, 219);
+		}
+		/* Multiple selectors */
+		#combinators, #selectors {
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin-bottom: 5px;
+		}
+		/* Nested selectors */
+		#selectors p {
+			font-size: 20px;
+			color:black;
+		}
+	</style>
+</head>
+<body>
+	<div id="selectors">
+		<h2 class="primary-heading">Css selectors</h2>
+		<p>The <strong>CSS selectors</strong> module defines the patterns to select elements to which a set of CSS rules are then applied along with their <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">specificity</a>. The CSS selectors module provides us with more than 60 selectors and five combinators. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors#related_concepts">Other modules</a> provide additional pseudo-class selectors and pseudo-elements.</p>
+	</div>
+	<div id="combinators">
+		<h2>Css Selectors and combinators</h2>
+		<p>CSS selectors are used to define a pattern of the elements that you want to select for applying a set of CSS rules on the selected elements. Combinators define the relationship between the selectors. Using various selectors and combinators, you can precisely select and style the desired elements based on their type, attributes, state, or relationship to other elements.</p>
+	</div>
+</body>
+</html>
