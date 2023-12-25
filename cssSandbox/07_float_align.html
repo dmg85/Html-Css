@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Float &amp; Align</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			line-height: 1.5em;
+		}
+		.container {
+			max-width: 75%;
+			margin: 30px auto;
+		}
+		.clr {
+			clear: both;
+		}
+		.box {
+			background-color: rgb(252, 143, 103);
+			border: 1px solid #333;
+			padding: 20px 30px;
+			margin-bottom: 1em;
+		}
+		.box p {
+			/* Text Align */
+			text-align: left;
+			text-align: right;
+			text-align: center;
+			text-align: justify;
+		}
+		#box-2 {
+			float: left;
+			width: 68%;
+		}
+		#box-3 {
+			float: right;
+			width: 30%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div>
+			<div id="box-1" class="box">
+				<h2>Heading</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem perferendis aperiam optio consequuntur illo iste tenetur, dolorem delectus mollitia iure atque reiciendis, sit nam porro reprehenderit voluptate, laborum esse.</p>
+			</div>
+			<div id="box-2" class="box">
+				<h2>Heading</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit consequatur fugit officia perspiciatis eos iusto architecto debitis adipisci accusantium velit aperiam quasi quam cupiditate animi deserunt, doloremque temporibus possimus nostrum.</p>
+			</div>
+			<div id="box-3" class="box">
+				<h2>Heading</h2>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nihil similique provident sint, quam maxime explicabo itaque rem, perferendis suscipit perspiciatis aliquam officiis error eius numquam. Sed dolore earum placeat quod tempora reprehenderit nostrum iusto?</p>
+			</div>
+
+			<div class="clr"></div>
+			<div id="box-4" class="box">
+				<h2>Heading</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et repellat minima consequuntur! Unde quisquam suscipit ut magnam voluptatem dignissimos, incidunt ex tenetur eos nulla corporis eum perferendis fuga voluptates iusto. Ex ipsa officiis qui quo praesentium!</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
