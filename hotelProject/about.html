@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Welcome to Boston Hotel">
+	<meta name="keywords" content="Boston hotel, new england hotel">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>About</title>
+</head>
+<body>
+	<!-- Emmet x this header group 'header>nav#navbar>(h1.logo>a{HTL})+ul>li*3>a{Home}' -->
+	<header>
+		<nav id="navbar">
+			<div class="container">
+				<h1 class="logo"><a href="index.html">HTL</a></h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a class="current" href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	</header>
+
+	<!-- Emmet x this block of code '#about-info>.container>.info-left>(h1>span.text-primary)+p*2+.info-right' -->
+	<div id="about-info" class="bg-light py-3">
+		<div class="container">
+			<div class="info-left">
+				<h1 class="l-heading"><span class="text-primary">About </span>hotel BT</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur illo error ut aliquid fuga veritatis! Quam corporis facere dolorum vero, repudiandae a optio dolores ex, totam nihil consequuntur voluptatem?</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere inventore quos mollitia, eius molestias iure aspernatur velit quidem quam quia.</p>
+			</div>
+			<div class="info-right">
+				<img src="./img/photo-2.jpg" alt="hotel">
+			</div>
+		</div>
+	</div>
+	
+	<div class="clr"></div>
+	<!-- Emmet x this block 'section#testimonials.py-3>.container>h2.l-heading{What Our Guest Say}+.testimonial.bg-primary>img+p{lorem}' -->
+
+	<section id="testimonials" class="py-3">
+		<div class="container">
+			<h2 class="l-heading">What Our Guests Say</h2>
+			<div class="testimonial bg-primary">
+				<img src="./img/person-1.jpg" alt="Guest-1">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat obcaecati soluta temporibus doloremque aliquid cumque autem sed accusantium tempore modi, labore, perferendis cupiditate molestias error. Corrupti nihil doloribus blanditiis aspernatur! Laborum, illum quidem harum adipisci quis alias et ipsum.</p>
+			</div>
+
+			<div class="testimonial bg-primary">
+				<img src="./img/person-2.jpg" alt="Guest-2">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat obcaecati soluta temporibus doloremque aliquid cumque autem sed accusantium tempore modi, labore, perferendis cupiditate molestias error. Corrupti nihil doloribus blanditiis aspernatur! Laborum, illum quidem harum adipisci quis alias et ipsum.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer id="main-footer">
+		<p>Hotel HTL &copy; 2024 All Rights Reserved</p>
+	</footer>
+</body>
+</html>
