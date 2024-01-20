@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vh &amp; Vw Units</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background: rgb(40, 39, 39) url('https://source.unsplash.com/daily') no-repeat center center/cover;
+			color: white;
+			height: 100vh;
+			text-align: center;
+			padding: 2rem;
+			padding-top: 15rem;
+
+		}
+
+		header h1 {
+			font-size: 3rem;
+		}
+
+		header p {
+			margin: 1rem 0;
+		}
+		
+		.btn {
+			display: inline-block;
+			text-decoration: none;
+			background: #f4f4f4;
+			color: #333;
+			padding: 0.75rem 2rem;
+			border-radius: 7px;
+		}
+
+		.btn:hover {
+			background-color: #0a8eec;
+			color: white;
+		}
+
+		section {
+			padding: 2rem;
+		}
+
+		@media(max-height: 450px) {
+			header {
+				padding-top: 5rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to Our Website</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, sunt iste! Recusandae ab fugit aut ullam quisquam, harum eius quo!</p>
+		<a href="#" class="btn">Find Our More</a>
+	</header>
+	<section>
+		<h3>About our company</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat rem asperiores dolorem repellat optio adipisci explicabo rerum. Quam qui ex laboriosam quibusdam ratione, dolores quo dolorum harum tempore dolor veritatis velit corporis. Doloremque veritatis repudiandae, voluptatibus explicabo, eaque voluptatum porro nam consequatur facere dolorem adipisci inventore quasi laboriosam excepturi accusantium.</p>
+	</section>
+</body>
+</html>
