@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transitions</title>
+	<style>
+		body {
+			background-color: #333;
+			height: 100vh;
+		}
+
+		.box {
+			background-color: rgb(245, 200, 22);
+			width: 150px;
+			height: 150px;
+			position: relative;
+			top:0;
+			left: 0;
+			/* transition-property: background;
+			transition-duration: 1.5s;
+			transition-timing-function: ease-in-out; */
+			/* transition-delay: 1s; */
+			animation: animate 5s forwards ease-in-out infinite;
+		}
+
+		.box:hover {
+			background-color: rgb(244, 181, 6);
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+		}
+
+		@keyframes animate{
+			25% {
+				top: 0;
+				left: 300px;
+				border-radius: 5px;
+			}
+			50% {
+				top: 300px;
+				left: 300px;
+				border-radius: 10px;
+			}
+			75% {
+				top: 300px;
+				left: 0;
+				border-radius: 15px;
+			}
+			100% {
+				top: 0;
+				left: 0;
+				border-radius: 60px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
